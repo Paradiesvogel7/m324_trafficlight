@@ -6,7 +6,7 @@ describe("test suite traffic light", () => {
   });
 
   it(`case yellow light`, () => {
-    expect(app.trafficLight("yellow")).toBe("ATTENTION!");
+    expect(app.trafficLight("orange")).toBe("ATTENTION!");
   });
 
   it(`case green light`, () => {
